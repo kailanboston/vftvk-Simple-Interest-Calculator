@@ -1,16 +1,9 @@
-function Compute Interest ()
-alert("175000");
+function si(){ 
 
-{
-    p = document.getElementById("principal").value;
-    
-    var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value; // Display the default slider value
+var p = document.getElementById("p"). value;
+var r = document.getElementById("r"). value;
+var t = document.getElementById("t"). value;
+var si = p*r*t/100;
+alert ("If you deposit 1000000 at an interest of 3.5% . You will receive an amount of 175000, in the year 2025"); 
 
-// Update the current slider value (each time you drag the slider handle)
-slider.oninput = function() {
-  output.innerHTML = this.value;
-
-}
-        
+} 
